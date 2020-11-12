@@ -120,6 +120,7 @@ section .line {
 /* gallery */
 #gallery {
     background-color: #BAD7DF;
+
 }
 #gallery h2 {
     padding-top: 50px;
@@ -132,9 +133,14 @@ section .line {
     width: 375px; height: 198px;
     margin-bottom: 10px;
     overflow: hidden;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 #gallery > .img1 { 
-    overflow: hidden; 
+    width: 375px;
+    overflow: hidden;
+    margin-left: 50%;
+    transform: translateX(-50%); 
     /* padding-top: 5px; */
 }
 #gallery > .img1 > div { 
@@ -146,9 +152,12 @@ section .line {
     margin-right: 9px;
 }
 #gallery > .img2 { 
+    width: 375px;
     overflow: hidden;
-    padding-top: 5px;
+    padding-top: 3px;
     padding-bottom: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%); 
 }
 #gallery > .img2 > div { 
     width: 183px; height: 128px;
@@ -165,8 +174,11 @@ section .line {
 }
 
 #contact > .groom {
+    width: max-content;
     overflow: hidden;
-    margin-left: 55px;
+    /* outline: 1px solid red; */
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 #contact > .groom > p {
     float: left;
@@ -189,9 +201,12 @@ section .line {
     font-size: 18px;
 }
 #contact > .bride {
+    width: max-content;
     overflow: hidden;
     margin-left: 55px;
     padding-top: 24px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 #contact > .bride > p {
     float: left;
