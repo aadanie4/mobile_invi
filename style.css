@@ -1,0 +1,246 @@
+/* style CSS */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: 'Noto Serif KR', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+a { 
+    text-decoration: none;
+    color: #707070;
+}
+
+.img_responsive { 
+    width: 100%;
+    /* height: 100%; */
+    
+}
+
+/* main */
+#main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./imgs/wedding2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#main .icon { 
+    position: absolute;
+    bottom: 127px; left: 50%;
+    transform: translateX(-50%);
+}
+
+#main h1 {
+    color: #F6F6F6;
+    font-size: 32px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 81px; left: 50%;
+    transform: translateX(-50%);
+}
+#main p {
+    color: #F6F6F6;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 50px; left: 50%;
+    transform: translateX(-50%);
+}
+#main span { 
+    color: #FFE2E2;
+    font-weight: bold;
+}
+
+/* 섹션공통스타일 */
+section {
+    text-align: center;
+}
+section h2 { 
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 26px;
+    margin-top: 50px;
+}
+section p {
+    font-size: 14px;
+}
+section .line { 
+    height: 2px;
+    background-color: #FFE2E2;
+    margin: 0 40px;
+    /* margin-top: 50px; */
+}
+/* invitation */
+#invitation { 
+    text-align: center;
+}
+#invitation h2 {
+    color: #FFE2E2;
+}
+#invitation .smicon { 
+    padding-top: 25px;
+    padding-bottom: 15px;
+    /* outline: 1px solid blue; */
+}
+#invitation > .content p {
+    font-size: 12px;
+    line-height: 2em;
+    /* outline: 1px solid red; */
+}
+#invitation .line1 {
+    margin-top: 50px;
+}
+#invitation > .name {
+    padding: 30px 0;
+}
+#invitation > .name > p:last-child { 
+    padding-top: 5px;
+}
+#invitation > .name > p > span {
+    font-size: 16px;
+    font-weight: 600;
+}
+#invitation .line2 {
+    margin-bottom: 15px;
+}
+#invitation .line3 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+#invitation > .placedate > p {
+    font-size: 12px;
+}
+
+/* gallery */
+#gallery {
+    background-color: #BAD7DF;
+}
+#gallery h2 {
+    padding-top: 50px;
+    color: #fff;
+}
+#gallery p { 
+    padding-bottom: 30px;
+}
+#gallery .big_img {
+    width: 375px; height: 198px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#gallery > .img1 { 
+    overflow: hidden; 
+    /* padding-top: 5px; */
+}
+#gallery > .img1 > div { 
+    width: 183px; height: 128px;
+    float: left;
+    /* outline: 1px solid red; */
+}
+#gallery > .img1 > div:first-child {
+    margin-right: 9px;
+}
+#gallery > .img2 { 
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+#gallery > .img2 > div { 
+    width: 183px; height: 128px;
+    float: left;
+}
+#gallery > .img2 > div:first-child {
+    margin-right: 9px;
+}
+
+/* contact */
+#contact {
+    padding-top: 50px;
+    background-color: #F6F6F6;
+}
+
+#contact > .groom {
+    overflow: hidden;
+    margin-left: 55px;
+}
+#contact > .groom > p {
+    float: left;
+}
+#contact > .groom i {
+    margin-left: 20px;
+    width: 24px; height: 24px;
+    background-color: #FFE2E2;
+    border-radius: 100px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+#contact > .bride i {
+    margin-left: 20px;
+    width: 24px; height: 24px;
+    background-color: #FFE2E2;
+    border-radius: 100px;
+    line-height: 24px;
+    font-size: 18px;
+}
+#contact > .bride {
+    overflow: hidden;
+    margin-left: 55px;
+    padding-top: 24px;
+}
+#contact > .bride > p {
+    float: left;
+}
+#contact img {
+    margin-top: 34px;
+}
+
+/* location */
+#location {
+    background-color: #F6F6F6;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+#location h2 {
+    margin: 0;
+}
+#location .map {
+    margin-top: 30px;
+}
+
+#location > .route h3 {
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 16px;
+}
+#location > .route > .bus > .blue span {
+    color: blue;
+    font-weight: 500;
+}
+#location > .route > .bus > .green span {
+    color: green;
+    font-weight: 500;
+}
+#location > .route > .bus > .destination  {
+    padding-top: 10px;
+}
+/* end */
+#end { 
+    background-color: #FFE2E2;
+    padding: 50px 0;
+}
+#end h1 {
+    font-size: 32px;
+}
+#end .name p { 
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#end .name p span {
+    color: #BAD7DF;
+}
