@@ -28,30 +28,33 @@ a {
     background-image: url('./imgs/wedding2.jpg');
     background-position: center;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
+    text-align: center;
 }
 
 #main .icon { 
-    position: absolute;
-    bottom: 127px; left: 50%;
-    transform: translateX(-50%);
+    padding-top: 439px;
+    /* position: absolute; */
+    /* bottom: 127px; left: 50%; */
+    /* transform: translateX(-50%); */
 }
 
 #main h1 {
     color: #F6F6F6;
     font-size: 32px;
     font-weight: 500;
-    position: absolute;
-    bottom: 81px; left: 50%;
-    transform: translateX(-50%);
+    /* position: absolute; */
+    /* bottom: 81px; left: 50%; */
+    /* transform: translateX(-50%); */
+    /* padding-top: 500px; */
 }
 #main p {
     color: #F6F6F6;
     font-size: 20px;
     font-weight: lighter;
-    position: absolute;
-    bottom: 50px; left: 50%;
-    transform: translateX(-50%);
+    /* position: absolute; */
+    /* bottom: 50px; left: 50%; */
+    /* transform: translateX(-50%); */
 }
 #main span { 
     color: #FFE2E2;
@@ -120,8 +123,9 @@ section .line {
 /* gallery */
 #gallery {
     background-color: #BAD7DF;
-
+    /* outline: 1px solid red; */
 }
+
 #gallery h2 {
     padding-top: 50px;
     color: #fff;
@@ -130,41 +134,18 @@ section .line {
     padding-bottom: 30px;
 }
 #gallery .big_img {
-    width: 375px; height: 198px;
+    width: 100%; height: 198px;
     margin-bottom: 10px;
     overflow: hidden;
-    margin-left: 50%;
-    transform: translateX(-50%);
 }
-#gallery > .img1 { 
-    width: 375px;
-    overflow: hidden;
-    margin-left: 50%;
-    transform: translateX(-50%); 
-    /* padding-top: 5px; */
-}
-#gallery > .img1 > div { 
-    width: 183px; height: 128px;
-    float: left;
+#gallery .img1 img {
     /* outline: 1px solid red; */
+    padding: 0;
 }
-#gallery > .img1 > div:first-child {
-    margin-right: 9px;
-}
-#gallery > .img2 { 
-    width: 375px;
-    overflow: hidden;
-    padding-top: 3px;
-    padding-bottom: 50px;
-    margin-left: 50%;
-    transform: translateX(-50%); 
-}
-#gallery > .img2 > div { 
-    width: 183px; height: 128px;
-    float: left;
-}
-#gallery > .img2 > div:first-child {
-    margin-right: 9px;
+
+#gallery .img2 img {
+    padding: 10px 0;
+    /* outline: 1px solid blue; */
 }
 
 /* contact */
