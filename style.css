@@ -33,7 +33,7 @@ a {
 }
 
 #main .icon { 
-    padding-top: 439px;
+    padding-top: 350px;
     /* position: absolute; */
     /* bottom: 127px; left: 50%; */
     /* transform: translateX(-50%); */
@@ -165,7 +165,7 @@ section .line {
     float: left;
 }
 #contact > .groom i {
-    margin-left: 20px;
+    margin-left: 10px;
     width: 24px; height: 24px;
     background-color: #FFE2E2;
     border-radius: 100px;
@@ -174,7 +174,7 @@ section .line {
 }
 
 #contact > .bride i {
-    margin-left: 20px;
+    margin-left: 10px;
     width: 24px; height: 24px;
     background-color: #FFE2E2;
     border-radius: 100px;
@@ -184,8 +184,8 @@ section .line {
 #contact > .bride {
     width: max-content;
     overflow: hidden;
-    margin-left: 55px;
-    padding-top: 24px;
+    margin-left: 50px;
+    padding-top: 20px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -212,7 +212,7 @@ section .line {
 #location > .route h3 {
     padding-bottom: 10px;
     padding-top: 30px;
-    font-size: 16px;
+    font-size: 12px;
 }
 #location > .route > .bus > .blue span {
     color: blue;
@@ -231,10 +231,10 @@ section .line {
     padding: 50px 0;
 }
 #end h1 {
-    font-size: 32px;
+    font-size: 30px;
 }
 #end .name p { 
-    font-size: 20px;
+    font-size: 14px;
     padding-bottom: 10px;
 }
 #end .name p span {
